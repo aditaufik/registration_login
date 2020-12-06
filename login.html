@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="daftar_login.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <title>Daftar</title>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="row px-3">
+            <div class="col-lg-10 col-xl-9 card flex-row mx-auto px-0">
+                <div class="img-left d-none d-md-flex"></div>
+                    <div class="card-body">
+                        <h4 class="title pl-3 mt-4">Masuk</h4>
+                        <form class="form-box px-3" action="login_code.php" method="POST">
+                            <div class="form-input">
+                                <span><i class="fa fa-envelope"></i></span>
+                                <input type="email" name="email" id="email" placeholder="Alamat surel" tabindex="10" required>
+                            </div>
+
+                            <div class="form-input">
+                                <span><i class="fa fa-lock"></i></span>
+                                <input type="password" name="password" id="pwd" placeholder="Kata sandi" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <button type="submit" class="btn btn-block">Masuk</button>
+                            </div>
+
+                            <div class="text-center mb-2">
+                                Belum mempunyai akun?
+                                <a href="daftar.html" class="register-link">Daftar</a>
+                            </div>
+                        </form>
+                    </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
